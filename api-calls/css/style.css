@@ -1,0 +1,92 @@
+body, p, a, h1, h2, h3, h4, h5, h6, div {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+
+.wrapper {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.controls {
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  background: rgb(73, 115, 255);
+  border: none;
+  border-radius: 3px;
+  padding: 7px 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(53, 95, 235);
+}
+
+#logs {
+  text-align: center;
+}
+.log {
+  margin: 5px 0 10px 0;
+}
+
+.counter {
+  display: none;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.example {
+  width: 240px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  height: 270px;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.example p {
+  margin: 15px 0;
+}
+
+.info {
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: center;
+}
+
+h2, ol {
+  margin: 0;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+ol {
+  padding-left: 20px;
+  margin: 0 0 10px 0;
+  text-align: left;
+}
+
+ol li {
+  margin-bottom: 2px;
+}

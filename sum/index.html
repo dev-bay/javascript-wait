@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Css-workshop.com examples</title>
+		<meta name="description" content="Make UI on your own. HTML5, CSS3 tips, components, web templates, JavaScript.">
+		<meta name="keywords" content="css, css3, html, html5, javasctipy, front-end, front-end tips, css tips, html components, jQuery">
+		
+		<meta property="og:image" content="img/og-logo.png">
+		<meta property="og:title" content="CSS-WORKSHOP.COM">
+		<meta property="og:description" content="Make UI on your own. HTML5, CSS3 tips, components, web templates, JavaScript.">
+		<meta property="og:type" content="website" />
+		
+		<script type="text/javascript" src="js/helpers.js"></script>
+    <script type="text/javascript" src="js/recurent-wait.js"></script>
+    <script type="text/javascript" src="js/wait-5-sec-in-loop.js"></script>
+    <script type="text/javascript" src="js/wait-5-sec.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,600,300,700italic,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+
+    <div class="wrapper">
+      <div class="controls">
+        
+        <h1>JavaScript WAIT - basic examples</h1>
+
+        <div class="example">
+          <h2>Example 1</h2>
+          <p><strong>WAIT Basic example - modern async/await solution</strong></p>
+          <ol>
+            <li>Create variable with value 10</li>
+            <li><strong>Wait 5 second</strong></li>
+            <li><strong>Add +10 to variable</strong></li>
+            <li>Display results</li>
+          </ol>
+          <button id="run-wait">RUN EXAMPLE 1</button>
+        </div>
+
+        <div class="example">
+          <h2>Example 2</h2>
+          <p><strong>WAIT in FOR lopp - modern async/await solution (ES2015+)</strong></p>
+          <ol>
+            <li>Create variable with value 10</li>
+            <li><strong>In FOR loop wait 5 sec - 3x</strong></li>
+            <li><strong>Add +10 to variable</strong></li>
+            <li>Display results in loop</li>
+            <li>Modern <strong>async/await</strong> solution (ES2015+)</li>
+          </ol>
+          <button id="run-wait-in-loop">RUN EXAMPLE 2</button>
+        </div>
+        
+        <div class="example">
+          <h2>Example 3</h2>
+          <p><strong>WAIT in RECURENT function - solution for old browsers (ES5)</strong></p>
+          <ol>
+            <li>Create variable with value 10</li>
+            <li><strong>In RECURENT FUNCTION wait 5 sec - 3x</strong></li>
+            <li><strong>Add +10 to variable</strong></li>
+            <li>Display results in loop</li>
+            <li><strong>Solution for old browsers (ES5)</strong></li>
+          </ol>
+          <button id="run-wait-in-recurent-function">RUN EXAMPLE 3</button>
+        </div>
+        
+      </div>
+      
+      <div class="counter">Counting: <span id="counter">0</span> seconds <span id="finished"></span></div>
+
+      <div id="logs"></div>
+    </div>
+
+    <script>
+      /* HELPERS FUNCTIONS - START*/
+
+      /* DEMO EXAMPLES - START */
+      (function(app) {
+        
+        app.helpers.assignButtonEvents();
+        
+      }((this || window).app));
+
+    </script>
+
+	</body>
+</html>
