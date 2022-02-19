@@ -22,7 +22,7 @@
 
   }
 
-  async function runRecurentLoop() {
+  function runRecurentLoop() {
     var initValue = 10;
     var result = 0;
 
