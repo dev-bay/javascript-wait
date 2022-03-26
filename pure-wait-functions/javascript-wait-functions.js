@@ -6,6 +6,7 @@
 async function runWait5sec () { // REMEMBER - ALL FUNCTIONS WITH wait5sec FUNCTION MUST BE ASYNC/AWAIT
 	const initValue = 10;
 	const result = await sum(initValue, 10);
+	console.log("RESULT: ", result);
 }
 
 async function sum (value, addValue) {
@@ -34,6 +35,7 @@ async function runLoop() { // REMEMBER - ALL FUNCTIONS WITH wait5sec FUNCTION MU
 
 	for (let i = 0; i < 3; i++) {
 		const result = await sum(initValue, 10 * (i + 1));
+		console.log("RESULT: ", result);
 	}
 }
 
@@ -64,9 +66,9 @@ function runRecurentLoop() { // start recurent loop here
 	var initValue = 10;
 	var result = 0;
 
-
 	recurentLoopFunc(3, 5000, 0, function (i) { // callback function will be triggered after WAIT time
 		result = initValue + 10 * (i + 1);
+		console.log(result);
 	});
 }
 
